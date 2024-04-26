@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/* Default Start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #994ae3; */
+}
+
+
+:root {
+    --main-color: #994ae3;
+    --secondary-color: rgb(5, 5, 48);
+    --black: #222;
+    --light-black: #999999;
+    --white: #fff;
+
+    /* --color1: cadetblue;
+    --color2: #3c033a; */
+
+}
+
+/* Default End */
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+   background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+
+/* Footer-box start */
+/* #arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid wheat; */
+
+} */
+
+.footer {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgb(5, 5, 48,0.5);
+    color: var(--main-color);
+    /* padding: 5px 5px; */
+    /* position: fixed; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 5%;
+    transition: height 2s ease-in-out;
+}
+
+.footer:hover {
+    height: 36%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    /* height: 80%;  footer position */
+    
+    border: 2px;
+    /* border: 2px solid white; */
+}
+
+.V-button {
+    padding: 4px 6px;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.V-button:hover {
+    padding: 4px 6px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: teal;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.column {
+    flex-basis: 20%;
+    margin-bottom: 20px;
+
+}
+
+.column p {
+    color: white;
+}
+
+.column p i {
+    color: white;
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer h3 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: cadetblue;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.footer li {
+    margin-bottom: 5px;
+
+}
+
+
+.footer a {
+    /* color: var(--light-black); */
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    /* color: #ccc; */
+    color: cadetblue;
+}
+
+
+/* Copyright start */
+
+.copyright {
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background: rgba(255, 255, 255, 0.15); */
+    backdrop-filter: blur(10px);
+    position: relative;
+    /* top: 2px; */
+    color: var(--black);
+    font-weight: bolder;
+    /* font-size: large; */
+    /* height: 10vh; */
+    /* gap: 2px; */
+    /* border-radius: 50px 50px 50px 50px; */
+    padding: 2px;
+
+}
+
+/* Copyright end*/
+
+/* Footer-box end */

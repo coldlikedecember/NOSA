@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/* Default Start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #994ae3; */
+    
+}
+
+
+:root {
+    --main-color: #994ae3;
+    --secondary-color: rgb(5, 5, 48);
+    --black: #222;
+    --light-black: #999999;
+    --light-white:#fff9;
+    --white: #fff;
+    --border:.1rem solid var(--black) ;
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+    --primary-color: #d578e7;
+    --extra-light: #f3f4f6;
+    --max-width: 1200px;
+    
+    /* --color1: cadetblue;
+    --color2: #3c033a; */
+
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+   background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+/* Default End */
+
+.dmblog{
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(146, 149, 196, 0.452);
+    border-radius: 20px;
+}
+
+.dmblog h1{
+    align-items: center;
+}
+h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px;
+    color: #994ae3;
+    /* background-color: #d8aee0; */
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 350;
+    margin: 15px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 250;
+    margin: 12px;
+}
+
+P{
+    font-size: 16px;
+    font-weight: 200;
+    margin: 5px;
+}
+
+a{
+    color: darkblue;
+    font-weight: 300;
+    font-size: 16px;
+}
